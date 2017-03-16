@@ -1,0 +1,163 @@
+/* General Styles */
+* {
+    box-sizing: border-box;
+}
+img{
+    max-width: 100%;
+}
+a{
+    color: black;
+}
+
+body{
+   font-family: 'Open Sans', sans-serif;
+}
+/* Headers */
+header{
+    text-align: center;
+    color: white;
+    background: white;
+}
+h1{
+    Background: #8080FF;
+    font-size: 30px;
+}
+h2{
+    padding: 1%;
+    border: 3px dashed #7FFFD4;
+    margin: 1%;
+    font-size: 25px;
+}
+h3{
+    text-align: center;
+    font-weight: bold;
+}
+
+/* Typography */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #FFFF80;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 15px 15px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: white;
+}
+
+/* Page Structure */
+main {
+    width: 85%;
+    float: left;
+}
+#sidebar {
+    float: left;
+    width: 15%;
+    color: black;
+    background-color: white;
+    text-align: justify; 
+    font-size: 15px;
+}
+.grey-box {
+    background-color: white;
+    padding: 1%;
+    border: 3px solid #D3D3D3;
+    margin: 2%;
+    display: inline-block;
+    text-indent: 50px;
+    text-align: justify;
+}
+#about-me{
+    background: #7FFFD4;
+    position: relative;
+    height: 300px;
+}
+.about-me{
+    position: absolute;
+    margin-right: 30%;
+    margin-left: 5%;
+}
+.elisabeth{
+    position: absolute;
+    margin-left: 75%;
+}
+.elisabeth img{
+     border-radius: 50%;
+}
+#drinks-restaurants{
+    height: 500px;
+    position: relative;
+}
+#markets{
+    background: #7FFFD4;
+    position: relative;
+    height: 850px;
+}
+#pic-maltbystreet{
+    display: block;
+    overflow: auto;
+}
+#pic-maltbystreet img {
+    padding: 5%;
+    float: left;
+    width: 33.3%;
+} 
+#parks{
+    height: 500px;
+    position: relative;
+}
+#regent-park{
+    background: url("https://www.daysoutguide.co.uk/media/427891/regents-park-detail.jpg");
+    background-size: cover;
+    width: 100%;
+    border: 1px solid black;
+}
+#richmond-park{
+    background-image: url("https://s3-eu-west-1.amazonaws.com/cmsmedia.thetrainline.com/cms/1378/richmond-park.jpg");
+    background-size: cover;
+    width: 100%;
+    border: 1px solid black;
+} 
+#battersea-park{
+    background-image: url("https://littlelondonobservationist.files.wordpress.com/2013/09/p1040817.jpg");
+    background-size: cover;
+    width: 100%;
+    border: 1px solid black;
+}   
+#hyde-park{
+    background-image: url("https://kudago.com/media/images/place/b6/41/b6416f83a8f0cde4681e209431a57e64.jpg");
+    background-size: cover;
+    width: 100%;
+    border: 1px solid black; 
+}
+.park {
+    width: 45%;
+    float: left;
+    margin: 2.5%;
+}
+.park-box{
+    margin: 5%;
+    background-color: white;
+    border: 1px;
+    opacity: 0.5;
+}
+.park-box p {
+    margin: 1%;
+    font-weight: bold;
+    color: black; 
+}
+
+

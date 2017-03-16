@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+}
+
+img{
+    max-width: 100%;
+}
+
+
+body{
+    width: 100%;
+    float: left;
+    padding: 1em;
+}  
+
+
+/* Desktop */
+@media screen and (max-width: 1200px){
+    body{
+        width: 25%;
+    }   
+}
+
+/* Ipad */
+@media screen and (max-width: 1024px){
+   body{
+        width: 50%;
+    }    
+}
+
+/* Mobile */
+@media screen and (max-width: 768px){
+    body{
+        width: 100%;
+    }   
+}
